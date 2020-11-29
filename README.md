@@ -1,6 +1,6 @@
 ---
 documentclass: ltjsarticle
-title: "実習課題: 新しいAR×IoTサービスのプロトタイプ実装"
+title: 実習課題 - 新しいAR×IoTサービスのプロトタイプ実装
 author: 2020月11月30日 | 成瀬陽太 | 71945769 | t19576sn
 header-includes:
   - \usepackage[margin=1in]{geometry}
