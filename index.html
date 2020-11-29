@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <title>u-service20-t19576sn</title>
+</head>
+
+<body>
+    <a-scene embedded arjs>
+        <!-- ココに実際のシステムの挙動を追加する -->
+        <a-marker preset="custom" type="pattern" url="marker_list/qrcode.patt">
+            <!-- 使用するオブジェクトを記述する -->
+            <a-box position="0 1 0"></a-box>
+            <a-text value="テスト" position="0 0 0" align="center"></a-text>
+        </a-marker>
+    </a-scene>
+</body>
+
+</html>
