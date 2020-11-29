@@ -14,24 +14,24 @@
         <a-assets>
             <a-asset-item id="win_fan-obj" src="model/win_fan.obj"></a-asset-item>
             <a-asset-item id="win_fan-mtl" src="model/win_fan.mtl"></a-asset-item>
-            <a-mixin id="text1" text="align: center; width: 3;
+            <a-mixin id="text1" text="align: left; width: 3;
                         font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt;
                         value: Room temperature : 18˚C">
             </a-mixin>
-            <a-mixin id="text2" text="align: center; width: 3;
+            <a-mixin id="text2" text="align: left; width: 3;
                         font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt;
                         value: Preset temperature : 22˚C">
             </a-mixin>
-            <a-mixin id="text3" text="align: center; width: 3;
+            <a-mixin id="text3" text="align: left; width: 3;
                         font: https://cdn.aframe.io/fonts/Aileron-Semibold.fnt;
                         value: Mode : Heating">
             </a-mixin>
         </a-assets>
 
         <a-marker preset="custom" type="pattern" url="marker_list/qrcode.patt">
-            <a-text mixin="text1" position="1 0 0" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
-            <a-text mixin="text2" position="1 0 0.5" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
-            <a-text mixin="text3" position="1 0 1" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
+            <a-text mixin="text1" position="0 0 0" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
+            <a-text mixin="text2" position="0 0 0.5" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
+            <a-text mixin="text3" position="0 0 1" wrap-count="20" rotation="-90 0 0" color="white"></a-text>
             <a-obj-model id="win_fan" src="#win_fan-obj" mtl="#win_fan-mtl" position="-1.5 0 0" scale="0.03 0.03 0.03"
                 rotation="270 180 0">
             </a-obj-model>
